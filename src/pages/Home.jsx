@@ -30,8 +30,8 @@ const Home = () => {
           ></Card>
         ))
       ) : (
-        <div className="loader">
-          <span className="loading loading-ring  absolute w-[20%] h-[100vh] top-0 z-10"></span>
+        <div className="loader flex absolute w-[20%] h-[100vh] top-0 z-10">
+          <span className="loading loading-ring  "></span>
         </div>
       )}
     </div>

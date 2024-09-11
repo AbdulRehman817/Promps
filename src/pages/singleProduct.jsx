@@ -33,7 +33,7 @@ const SingleProduct = () => {
             price={data.price}
           />
         ) : (
-          <div className="loader block">
+          <div className="loader flex z-10">
             <span
               className="loading loading-dots  absolute w-[30%] h-[100vh] top-0 z-10 flex justify-center items-center 
           
