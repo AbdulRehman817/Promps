@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* .parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} */
+body {
+  height: 100%;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  height: 100%;
+}
